@@ -25,7 +25,10 @@ SECRET_KEY = '9fkw^lxyb7)5p*c)idj!k(@77ben+l(!@1l9k0sy_8rk$=_f++'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+	'ec2-52-78-226-177.ap-northeast-2.compute.amazonaws.com',
+	'.muse9.net',
+]
 
 
 # Application definition
